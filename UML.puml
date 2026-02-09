@@ -1,0 +1,13 @@
+@startuml
+class DemoApplication {
+- {static} Logger log
++ {static} void main(String[])
++ String hello(String)
+}
+
+
+class WelcomeMessage {
++ String getWelcomeMessage()
+}
+
+@enduml
